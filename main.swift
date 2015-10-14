@@ -14,6 +14,8 @@ struct EnumBuilder {
         return validSet.invertedSet
         }()
     
+    private static let forbiddenPathExtensions = [".appiconset/", ".launchimage/"]
+    
     static func enumStringForPath(path: String, topLevelName: String = "Shark") throws -> String {
         let resources = try imageResourcesAtPath(path)
         if resources.isEmpty {
@@ -39,11 +41,10 @@ struct EnumBuilder {
                 if fileURL.absoluteString.hasSuffix(".imageset/") {
                     let name = fileURL.lastPathComponent!.componentsSeparatedByString(".imageset")[0]
                     results.append(.File(name))
-                } else if !fileURL.absoluteString.hasSuffix(".appiconset/") && !fileURL.absoluteString.hasSuffix(".launchimage/") {
+                } else if forbiddenPathExtensions.indexOf({ fileURL.absoluteString.hasSuffix($0) }) == nil {
                     let folderName = fileURL.lastPathComponent!
-                    let correctedName = correctedNameForString(folderName) ?? folderName
                     let subResources = try imageResourcesAtPath(fileURL.relativePath!)
-                    results.append(.Directory((correctedName, subResources)))
+                    results.append(.Directory((folderName, subResources)))
                 }
             }
         }
@@ -98,6 +99,9 @@ struct EnumBuilder {
             return false
         }
         
+        var fileNameSeen = CountedSet<String>()
+        var folderNameSeen = CountedSet<String>()
+        
         var resultString = ""
         for singleResource in sortedResources {
             switch singleResource {
@@ -105,15 +109,28 @@ struct EnumBuilder {
                 print("Creating Case: \(name)")
                 let indentationString = String(count: 4 * (indentLevel + 1), repeatedValue: Character(" "))
                 if let correctedName = correctedNameForString(name) {
-                    resultString += indentationString + "case \(correctedName) = \"\(name)\"\n"
+                    let seenCount = fileNameSeen.countForObject(correctedName)
+                    let duplicateCorrectedName = correctedName + String(count: seenCount, repeatedValue: Character("_"))
+                    resultString += indentationString + "case \(duplicateCorrectedName) = \"\(name)\"\n"
+                    
+                    fileNameSeen.addObject(correctedName)
                 } else {
                     resultString += indentationString + "case \(name)\n"
+                    fileNameSeen.addObject(name)
                 }
             case .Directory(let (name, subResources)):
-                let correctedName = name.stringByReplacingOccurrencesOfString(" ", withString: "")
-                print("Creating Enum: \(correctedName)")
+                print("Creating Enum: \(name)")
                 let indentationString = String(count: 4 * (indentLevel), repeatedValue: Character(" "))
-                resultString += "\n" + indentationString + "public enum \(correctedName)" + conformanceStringForResource(singleResource)  + " {" + "\n"
+                let duplicateCorrectedName: String
+                if let correctedName = correctedNameForString(name) {
+                    let seenCount = folderNameSeen.countForObject(correctedName)
+                    duplicateCorrectedName = correctedName + String(count: seenCount, repeatedValue: Character("_"))
+                    folderNameSeen.addObject(correctedName)
+                } else {
+                    duplicateCorrectedName = name
+                    folderNameSeen.addObject(name)
+                }
+                resultString += "\n" + indentationString + "public enum \(duplicateCorrectedName)" + conformanceStringForResource(singleResource)  + " {" + "\n"
                 resultString += createEnumDeclarationForResources(subResources, indentLevel: indentLevel + 1)
                 resultString += indentationString + "}\n\n"
             }
