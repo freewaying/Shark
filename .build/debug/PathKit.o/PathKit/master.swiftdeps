@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.2-dev (LLVM 46be9ff861, Clang 4deb154edc, Swift 778f82939c)"
+options: "4d1515d0e4e76a0412a0c631101b64b0"
+build_time: [502843388, 837826000]
+inputs:
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/PathKit-0.6.0/Sources/PathKit.swift": [502843383, 0]

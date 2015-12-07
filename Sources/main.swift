@@ -1,6 +1,7 @@
 #!/usr/bin/env xcrun -sdk macosx swift
 
 import Foundation
+import PathKit
 
 struct EnumBuilder {
     private enum Resource {
@@ -15,7 +16,7 @@ struct EnumBuilder {
         }()
     
     static func enumStringForPath(path: String, topLevelName: String = "Shark") throws -> String {
-        let resources = try imageResourcesAtPath(path)
+        let resources = try imageResourcesAtPath(Path(path))
         if resources.isEmpty {
             return ""
         }
@@ -23,26 +24,20 @@ struct EnumBuilder {
         return createEnumDeclarationForResources([topLevelResource], indentLevel: 0)
     }
     
-    private static func imageResourcesAtPath(path: String) throws -> [Resource] {
+    private static func imageResourcesAtPath(path: Path) throws -> [Resource] {
         var results = [Resource]()
-        let URL = NSURL.fileURLWithPath(path)
-        
-        let contents = try NSFileManager.defaultManager().contentsOfDirectoryAtURL(URL, includingPropertiesForKeys: [NSURLNameKey, NSURLIsDirectoryKey], options: NSDirectoryEnumerationOptions.SkipsHiddenFiles)
-        
-        for fileURL in contents {
-            var directoryKey: AnyObject?
-            try fileURL.getResourceValue(&directoryKey, forKey: NSURLIsDirectoryKey)
-            
-            guard let isDirectory = directoryKey as? NSNumber else { continue }
-            
-            if isDirectory.integerValue == 1 {
-                if fileURL.absoluteString.hasSuffix(".imageset/") {
-                    let name = fileURL.lastPathComponent!.componentsSeparatedByString(".imageset")[0]
+
+        let children = try path.children()
+
+        for child in children {
+            if child.isDirectory {
+                if child.lastComponent.hasSuffix(".imageset") {                    
+                    let name = child.lastComponent.componentsSeparatedByString(".imageset")[0]                
                     results.append(.File(name))
-                } else if !fileURL.absoluteString.hasSuffix(".appiconset/") && !fileURL.absoluteString.hasSuffix(".launchimage/") {
-                    let folderName = fileURL.lastPathComponent!
+                } else if !child.lastComponent.hasSuffix(".appiconset") && !child.lastComponent.hasSuffix(".launchimage") {
+                    let folderName = child.lastComponent
                     let correctedName = correctedNameForString(folderName) ?? folderName
-                    let subResources = try imageResourcesAtPath(fileURL.relativePath!)
+                    let subResources = try imageResourcesAtPath(child)
                     results.append(.Directory((correctedName, subResources)))
                 }
             }

@@ -1,0 +1,246 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SystemError"
+- "Error"
+- "ShellError"
+provides-nominal:
+- "O5POSIX11SystemError"
+- "O5POSIX5Error"
+- "O5POSIX10ShellError"
+provides-member:
+- ["O5POSIX11SystemError", ""]
+- ["O5POSIX5Error", ""]
+- ["O5POSIX10ShellError", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "print"
+- "Int32"
+- "ErrorType"
+- !private "Darwin"
+- !private "FloatLiteralType"
+- "SystemError"
+- "String"
+- "CustomStringConvertible"
+- !private "IntegerLiteralType"
+- !private "+="
+- "Error"
+- "ShellError"
+- !private "??"
+- !private "UnicodeScalarType"
+- !private "OutputStreamType"
+- !private "StringLiteralType"
+depends-member:
+- !private ["Sb", "deinit"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "fromCString"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "fromCString"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "Darwin"]
+- ["Ps23CustomStringConvertible", "ExitSignal"]
+- ["Ps23CustomStringConvertible", "ExitStatus"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- ["Ps23CustomStringConvertible", "_code"]
+- ["Ps23CustomStringConvertible", "_domain"]
+- ["Ps23CustomStringConvertible", "chdir"]
+- ["Ps23CustomStringConvertible", "close"]
+- ["Ps23CustomStringConvertible", "description"]
+- ["Ps23CustomStringConvertible", "dirfd"]
+- ["Ps23CustomStringConvertible", "fgetc"]
+- ["Ps23CustomStringConvertible", "fopen"]
+- ["Ps23CustomStringConvertible", "fputs"]
+- ["Ps23CustomStringConvertible", "fread"]
+- ["Ps23CustomStringConvertible", "getcwd"]
+- ["Ps23CustomStringConvertible", "mkdir"]
+- ["Ps23CustomStringConvertible", "mkdtemp"]
+- ["Ps23CustomStringConvertible", "opendir"]
+- ["Ps23CustomStringConvertible", "pipe"]
+- ["Ps23CustomStringConvertible", "popen"]
+- ["Ps23CustomStringConvertible", "posix_spawn"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- ["Ps23CustomStringConvertible", "read"]
+- !private ["Ps23CustomStringConvertible", "readdir"]
+- !private ["Ps23CustomStringConvertible", "readlink"]
+- ["Ps23CustomStringConvertible", "realpath"]
+- ["Ps23CustomStringConvertible", "rename"]
+- ["Ps23CustomStringConvertible", "rmdir"]
+- ["Ps23CustomStringConvertible", "stat"]
+- !private ["Ps23CustomStringConvertible", "symlinkat"]
+- !private ["Ps23CustomStringConvertible", "unlink"]
+- !private ["Ps23CustomStringConvertible", "waitpid"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "fromCString"]
+- !private ["Ps9Equatable", "init"]
+- ["O5POSIX5Error", "ExitSignal"]
+- ["O5POSIX5Error", "ExitStatus"]
+- ["O5POSIX5Error", "Int32"]
+- !private ["O5POSIX5Error", "OutputStreamType"]
+- ["O5POSIX5Error", "String"]
+- ["O5POSIX5Error", "_code"]
+- ["O5POSIX5Error", "_domain"]
+- ["O5POSIX5Error", "deinit"]
+- ["O5POSIX5Error", "description"]
+- !private ["O5POSIX5Error", "print"]
+- !private ["Ps9ErrorType", "Darwin"]
+- ["Ps9ErrorType", "ExitSignal"]
+- ["Ps9ErrorType", "ExitStatus"]
+- !private ["Ps9ErrorType", "String"]
+- ["Ps9ErrorType", "_code"]
+- ["Ps9ErrorType", "_domain"]
+- ["Ps9ErrorType", "chdir"]
+- ["Ps9ErrorType", "close"]
+- ["Ps9ErrorType", "description"]
+- ["Ps9ErrorType", "dirfd"]
+- ["Ps9ErrorType", "fgetc"]
+- ["Ps9ErrorType", "fopen"]
+- ["Ps9ErrorType", "fputs"]
+- ["Ps9ErrorType", "fread"]
+- ["Ps9ErrorType", "getcwd"]
+- ["Ps9ErrorType", "mkdir"]
+- ["Ps9ErrorType", "mkdtemp"]
+- ["Ps9ErrorType", "opendir"]
+- ["Ps9ErrorType", "pipe"]
+- ["Ps9ErrorType", "popen"]
+- ["Ps9ErrorType", "posix_spawn"]
+- !private ["Ps9ErrorType", "print"]
+- ["Ps9ErrorType", "read"]
+- !private ["Ps9ErrorType", "readdir"]
+- !private ["Ps9ErrorType", "readlink"]
+- ["Ps9ErrorType", "realpath"]
+- ["Ps9ErrorType", "rename"]
+- ["Ps9ErrorType", "rmdir"]
+- ["Ps9ErrorType", "stat"]
+- !private ["Ps9ErrorType", "symlinkat"]
+- !private ["Ps9ErrorType", "unlink"]
+- !private ["Ps9ErrorType", "waitpid"]
+- ["Ps9ErrorType", ""]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "fromCString"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "fromCString"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps14MirrorPathType", "fromCString"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16OutputStreamType", "_lock"]
+- !private ["Ps16OutputStreamType", "_unlock"]
+- !private ["Ps16OutputStreamType", "fromCString"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Ps16OutputStreamType", "result"]
+- !private ["Ps16OutputStreamType", "write"]
+- !private ["Ps16OutputStreamType", ""]
+- ["O5POSIX10ShellError", "String"]
+- ["O5POSIX10ShellError", "SystemError"]
+- ["O5POSIX10ShellError", "_code"]
+- ["O5POSIX10ShellError", "_domain"]
+- ["O5POSIX10ShellError", "deinit"]
+- ["O5POSIX10ShellError", "popen"]
+- ["O5POSIX10ShellError", "system"]
+- !private ["Ps10Streamable", "fromCString"]
+- !private ["Ps10Streamable", "init"]
+- !private ["SS", "fromCString"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "fromCString"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "fromCString"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["O5POSIX11SystemError", "Darwin"]
+- ["O5POSIX11SystemError", "Int32"]
+- ["O5POSIX11SystemError", "String"]
+- ["O5POSIX11SystemError", "_code"]
+- ["O5POSIX11SystemError", "_domain"]
+- ["O5POSIX11SystemError", "chdir"]
+- ["O5POSIX11SystemError", "close"]
+- ["O5POSIX11SystemError", "deinit"]
+- ["O5POSIX11SystemError", "description"]
+- ["O5POSIX11SystemError", "dirfd"]
+- ["O5POSIX11SystemError", "fgetc"]
+- ["O5POSIX11SystemError", "fopen"]
+- ["O5POSIX11SystemError", "fputs"]
+- ["O5POSIX11SystemError", "fread"]
+- ["O5POSIX11SystemError", "getcwd"]
+- ["O5POSIX11SystemError", "mkdir"]
+- ["O5POSIX11SystemError", "mkdtemp"]
+- ["O5POSIX11SystemError", "opendir"]
+- ["O5POSIX11SystemError", "pipe"]
+- ["O5POSIX11SystemError", "popen"]
+- ["O5POSIX11SystemError", "posix_spawn"]
+- ["O5POSIX11SystemError", "read"]
+- ["O5POSIX11SystemError", "readdir"]
+- ["O5POSIX11SystemError", "readlink"]
+- ["O5POSIX11SystemError", "realpath"]
+- ["O5POSIX11SystemError", "rename"]
+- ["O5POSIX11SystemError", "rmdir"]
+- ["O5POSIX11SystemError", "stat"]
+- ["O5POSIX11SystemError", "symlinkat"]
+- ["O5POSIX11SystemError", "unlink"]
+- ["O5POSIX11SystemError", "waitpid"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "fromCString"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "fromCString"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "fromCString"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "fromCString"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "fromCString"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps12_Reflectable", "fromCString"]
+- !private ["Ps12_Reflectable", "init"]
+depends-nominal:
+- !private "Sb"
+- !private "Vs9Character"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- !private "Ps9Equatable"
+- "O5POSIX5Error"
+- "Ps9ErrorType"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "Ps8Hashable"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps14MirrorPathType"
+- !private "Sq"
+- !private "Ps16OutputStreamType"
+- "O5POSIX10ShellError"
+- !private "Ps10Streamable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- "O5POSIX11SystemError"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/libc.swiftmodule"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+interface-hash: "f7012e2abd75ce95413a564a493ed06c"

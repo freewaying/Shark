@@ -1,0 +1,165 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Resources"
+provides-nominal:
+- "C3sys9Resources"
+provides-member:
+- ["C3sys9Resources", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- !private "IntegerLiteralType"
+- !private "precondition"
+- !private "realpath"
+- !private "!="
+- "String"
+- !private "Path"
+- !private "POSIX"
+- !private "dladdr"
+- !private "StringLiteralType"
+- "Int"
+- !private "Dl_info"
+- "Resources"
+- !private "FloatLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "Dl_info"]
+- !private ["Ps9AnyObject", "POSIX"]
+- !private ["Ps9AnyObject", "Path"]
+- !private ["Ps9AnyObject", "Resources"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "_resourcePaths"]
+- !private ["Ps9AnyObject", "computeResourcesPaths"]
+- !private ["Ps9AnyObject", "dladdr"]
+- !private ["Ps9AnyObject", "executablesPath"]
+- !private ["Ps9AnyObject", "installPath"]
+- !private ["Ps9AnyObject", "precondition"]
+- !private ["Ps9AnyObject", "realpath"]
+- !private ["Ps9AnyObject", "registeredMainExecutablePath"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps10Comparable", "exists"]
+- !private ["Ps10Comparable", "fromCString"]
+- !private ["Ps10Comparable", "normpath"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "exists"]
+- !private ["Ps28CustomDebugStringConvertible", "fromCString"]
+- !private ["Ps28CustomDebugStringConvertible", "normpath"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "exists"]
+- !private ["Ps9Equatable", "fromCString"]
+- !private ["Ps9Equatable", "normpath"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "exists"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "fromCString"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "normpath"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "exists"]
+- !private ["Ps8Hashable", "fromCString"]
+- !private ["Ps8Hashable", "normpath"]
+- !private ["Ps14MirrorPathType", "exists"]
+- !private ["Ps14MirrorPathType", "fromCString"]
+- !private ["Ps14MirrorPathType", "normpath"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16OutputStreamType", "exists"]
+- !private ["Ps16OutputStreamType", "fromCString"]
+- !private ["Ps16OutputStreamType", "normpath"]
+- !private ["V3sys4Path", "join"]
+- !private ["C3sys9Resources", "Dl_info"]
+- ["C3sys9Resources", "Int"]
+- !private ["C3sys9Resources", "POSIX"]
+- !private ["C3sys9Resources", "Path"]
+- !private ["C3sys9Resources", "Resources"]
+- ["C3sys9Resources", "String"]
+- !private ["C3sys9Resources", "_resourcePaths"]
+- !private ["C3sys9Resources", "computeResourcesPaths"]
+- ["C3sys9Resources", "deinit"]
+- !private ["C3sys9Resources", "dladdr"]
+- ["C3sys9Resources", "executablesPath"]
+- ["C3sys9Resources", "findExecutable"]
+- ["C3sys9Resources", "getMainExecutable"]
+- ["C3sys9Resources", "init"]
+- ["C3sys9Resources", "initialize"]
+- ["C3sys9Resources", "installPath"]
+- !private ["C3sys9Resources", "precondition"]
+- !private ["C3sys9Resources", "realpath"]
+- !private ["C3sys9Resources", "registeredMainExecutablePath"]
+- ["C3sys9Resources", "runtimeLibPath"]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["Ps10Streamable", "exists"]
+- !private ["Ps10Streamable", "fromCString"]
+- !private ["Ps10Streamable", "normpath"]
+- !private ["SS", "exists"]
+- !private ["SS", "fromCString"]
+- !private ["SS", "normpath"]
+- !private ["Ps30StringInterpolationConvertible", "exists"]
+- !private ["Ps30StringInterpolationConvertible", "fromCString"]
+- !private ["Ps30StringInterpolationConvertible", "normpath"]
+- !private ["Ps24StringLiteralConvertible", "exists"]
+- !private ["Ps24StringLiteralConvertible", "fromCString"]
+- !private ["Ps24StringLiteralConvertible", "normpath"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "exists"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "fromCString"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "normpath"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "exists"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "fromCString"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "normpath"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "exists"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "fromCString"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "normpath"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "exists"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "fromCString"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "normpath"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "exists"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "fromCString"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "normpath"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "exists"]
+- !private ["Ps12_Reflectable", "fromCString"]
+- !private ["Ps12_Reflectable", "normpath"]
+- !private ["VSC7dl_info", "dli_fname"]
+- !private ["VSC7dl_info", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps8Hashable"
+- !private "Ps14MirrorPathType"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "Ps16OutputStreamType"
+- !private "V3sys4Path"
+- "C3sys9Resources"
+- !private "Vs12StaticString"
+- !private "Ps10Streamable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Vs26_OptionalNilComparisonType"
+- "Ps12_Reflectable"
+- !private "VSC7dl_info"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/libc.swiftmodule"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/POSIX.swiftmodule"
+interface-hash: "35a2adf192bc91ebde56ba939839780c"

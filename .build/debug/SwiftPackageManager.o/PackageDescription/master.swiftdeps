@@ -1,0 +1,7 @@
+version: "Apple Swift version 2.2-dev (LLVM 46be9ff861, Clang 4deb154edc, Swift 778f82939c)"
+options: "717878c19175a9791a484e0ea0645e84"
+build_time: [502843389, 617228000]
+inputs:
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/PackageDescription/Package.swift": [502843387, 0]
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/PackageDescription/Target.swift": [502843387, 0]
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/PackageDescription/Version.swift": [502843387, 0]

@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/PathKit.o/PathKit/master.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/PathKit-0.6.0/Sources/PathKit.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/PathKit.o/PathKit/PathKit.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/PathKit.o/Sources/PathKit.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/PathKit.o/PathKit/PathKit~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/PathKit.o/PathKit/PathKit.swiftdeps"
+  }
+}

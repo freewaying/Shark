@@ -1,0 +1,388 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "globalSymbolInMainBinary"
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- "POSIX"
+- "Array"
+- "attachedToTerminal"
+- "exit"
+- "Resources"
+- "IntegerLiteralType"
+- "sys"
+- "Path"
+- "Verbosity"
+- "Process"
+- "parse"
+- "print"
+- "usage"
+- "UnicodeScalarType"
+- "findSourceRoot"
+- "StringLiteralType"
+- "determineTargets"
+- "llbuild"
+- "CommandLineError"
+- "stderr"
+- "globalSymbolInMainBinary"
+- "??"
+- "get"
+- "opendir"
+- "FloatLiteralType"
+- "getenv"
+- "Manifest"
+- "rmtree"
+depends-member:
+- ["Ps9AnyObject", "dependencies"]
+- ["Ps9AnyObject", "initialize"]
+- ["Ps9AnyObject", "name"]
+- ["Sa", "Element"]
+- ["Sa", "Generator"]
+- ["Sa", "Index"]
+- ["Sa", "SubSequence"]
+- ["Sa", "_Element"]
+- ["Sa", "dropFirst"]
+- ["Sa", "init"]
+- ["Ps23ArrayLiteralConvertible", "Element"]
+- ["Ps23ArrayLiteralConvertible", "Generator"]
+- ["Ps23ArrayLiteralConvertible", "Index"]
+- ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- ["Ps23ArrayLiteralConvertible", "_Element"]
+- ["Ps23ArrayLiteralConvertible", "dropFirst"]
+- ["Ps23ArrayLiteralConvertible", "init"]
+- ["Vs10ArraySlice", "Generator"]
+- ["Vs10ArraySlice", "Index"]
+- ["Vs10ArraySlice", "_Element"]
+- ["Ps22BidirectionalIndexType", "Distance"]
+- ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- ["Ps21BitwiseOperationsType", "Distance"]
+- ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- ["Ps11CVarArgType", "Distance"]
+- ["Ps11CVarArgType", "IntegerLiteralType"]
+- ["Vs9Character", "deinit"]
+- ["Ps14CollectionType", "Element"]
+- ["Ps14CollectionType", "Generator"]
+- ["Ps14CollectionType", "Index"]
+- ["Ps14CollectionType", "SubSequence"]
+- ["Ps14CollectionType", "_Element"]
+- ["Ps14CollectionType", "dropFirst"]
+- ["Ps14CollectionType", "init"]
+- ["O10swiftbuild16CommandLineError", "InvalidUsage"]
+- ["Ps10Comparable", "Distance"]
+- ["Ps10Comparable", "IntegerLiteralType"]
+- ["Ps10Comparable", "basename"]
+- ["Ps10Comparable", "init"]
+- ["OV3dep15BuildParameters13Configuration", "dirname"]
+- ["Ps28CustomDebugStringConvertible", "Element"]
+- ["Ps28CustomDebugStringConvertible", "Generator"]
+- ["Ps28CustomDebugStringConvertible", "Index"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- ["Ps28CustomDebugStringConvertible", "_Element"]
+- ["Ps28CustomDebugStringConvertible", "basename"]
+- ["Ps28CustomDebugStringConvertible", "dropFirst"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "Build"]
+- ["Ps23CustomStringConvertible", "Clean"]
+- ["Ps23CustomStringConvertible", "Distance"]
+- ["Ps23CustomStringConvertible", "Element"]
+- ["Ps23CustomStringConvertible", "ExitStatus"]
+- ["Ps23CustomStringConvertible", "Generator"]
+- ["Ps23CustomStringConvertible", "Index"]
+- ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- ["Ps23CustomStringConvertible", "SubSequence"]
+- ["Ps23CustomStringConvertible", "Usage"]
+- ["Ps23CustomStringConvertible", "Version"]
+- ["Ps23CustomStringConvertible", "_Element"]
+- ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "dropFirst"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "name"]
+- ["Ps23CustomStringConvertible", "path"]
+- ["Ps23CustomStringConvertible", "targets"]
+- ["Sd", "deinit"]
+- ["Ps9Equatable", "Distance"]
+- ["Ps9Equatable", "Imply"]
+- ["Ps9Equatable", "IntegerLiteralType"]
+- ["Ps9Equatable", "Print"]
+- ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "basename"]
+- ["Ps9Equatable", "dependencies"]
+- ["Ps9Equatable", "dirname"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "name"]
+- ["O5POSIX5Error", "ExitStatus"]
+- ["Ps9ErrorType", "ExitStatus"]
+- ["Ps9ErrorType", "InvalidUsage"]
+- ["Ps41ExtendedGraphemeClusterLiteralConvertible", "basename"]
+- ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- ["P3dep9Fetchable", "name"]
+- ["P3dep9Fetchable", "path"]
+- ["P3dep9Fetchable", "targets"]
+- ["Sf", "deinit"]
+- ["Ps16ForwardIndexType", "Distance"]
+- ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- ["Ps13GeneratorType", "Element"]
+- ["Ps8Hashable", "Distance"]
+- ["Ps8Hashable", "Imply"]
+- ["Ps8Hashable", "IntegerLiteralType"]
+- ["Ps8Hashable", "Print"]
+- ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "basename"]
+- ["Ps8Hashable", "dirname"]
+- ["Ps8Hashable", "init"]
+- ["Ps9Indexable", "Element"]
+- ["Ps9Indexable", "Generator"]
+- ["Ps9Indexable", "Index"]
+- ["Ps9Indexable", "SubSequence"]
+- ["Ps9Indexable", "_Element"]
+- ["Ps9Indexable", "dropFirst"]
+- ["Ps9Indexable", "init"]
+- ["Vs17IndexingGenerator", "Element"]
+- ["Si", "Distance"]
+- ["Si", "IntegerLiteralType"]
+- ["Si", "deinit"]
+- ["Vs5Int16", "deinit"]
+- ["Vs5Int32", "deinit"]
+- ["Vs5Int64", "deinit"]
+- ["Vs4Int8", "deinit"]
+- ["Ps21IntegerArithmeticType", "Distance"]
+- ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- ["Ps25IntegerLiteralConvertible", "Distance"]
+- ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- ["Ps11IntegerType", "Distance"]
+- ["Ps11IntegerType", "IntegerLiteralType"]
+- ["V3dep8Manifest", "configureTargets"]
+- ["V3dep8Manifest", "init"]
+- ["V3dep8Manifest", "package"]
+- ["Ps14MirrorPathType", "Distance"]
+- ["Ps14MirrorPathType", "IntegerLiteralType"]
+- ["Ps14MirrorPathType", "basename"]
+- ["Ps14MirrorPathType", "init"]
+- ["O10swiftbuild4Mode", "Build"]
+- ["O10swiftbuild4Mode", "Clean"]
+- ["O10swiftbuild4Mode", "Usage"]
+- ["O10swiftbuild4Mode", "Version"]
+- ["Ps21MutableCollectionType", "Element"]
+- ["Ps21MutableCollectionType", "Generator"]
+- ["Ps21MutableCollectionType", "Index"]
+- ["Ps21MutableCollectionType", "SubSequence"]
+- ["Ps21MutableCollectionType", "_Element"]
+- ["Ps21MutableCollectionType", "dropFirst"]
+- ["Ps21MutableCollectionType", "init"]
+- ["Ps16MutableIndexable", "Element"]
+- ["Ps16MutableIndexable", "Generator"]
+- ["Ps16MutableIndexable", "Index"]
+- ["Ps16MutableIndexable", "SubSequence"]
+- ["Ps16MutableIndexable", "_Element"]
+- ["Ps16MutableIndexable", "dropFirst"]
+- ["Ps16MutableIndexable", "init"]
+- ["Ps16MutableSliceable", "Element"]
+- ["Ps16MutableSliceable", "Generator"]
+- ["Ps16MutableSliceable", "Index"]
+- ["Ps16MutableSliceable", "SubSequence"]
+- ["Ps16MutableSliceable", "_Element"]
+- ["Ps16MutableSliceable", "dropFirst"]
+- ["Ps16MutableSliceable", "init"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- ["Ps16OutputStreamType", "basename"]
+- ["Ps16OutputStreamType", "init"]
+- ["C18PackageDescription7Package", "dependencies"]
+- ["C18PackageDescription7Package", "name"]
+- ["V3dep7Package", "name"]
+- ["V3dep7Package", "path"]
+- ["V3dep7Package", "targets"]
+- ["V3sys4Path", "join"]
+- ["Os7Process", "arguments"]
+- ["Ps21RandomAccessIndexType", "Distance"]
+- ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- ["Ps30RangeReplaceableCollectionType", "Element"]
+- ["Ps30RangeReplaceableCollectionType", "Generator"]
+- ["Ps30RangeReplaceableCollectionType", "Index"]
+- ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- ["Ps30RangeReplaceableCollectionType", "_Element"]
+- ["Ps30RangeReplaceableCollectionType", "dropFirst"]
+- ["Ps30RangeReplaceableCollectionType", "init"]
+- ["Ps16RawRepresentable", "init"]
+- ["C3sys9Resources", "initialize"]
+- ["Ps12SequenceType", "Element"]
+- ["Ps12SequenceType", "Generator"]
+- ["Ps12SequenceType", "Index"]
+- ["Ps12SequenceType", "SubSequence"]
+- ["Ps12SequenceType", "_Element"]
+- ["Ps12SequenceType", "dropFirst"]
+- ["Ps12SequenceType", "init"]
+- ["Ps17SignedIntegerType", "Distance"]
+- ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- ["Ps16SignedNumberType", "Distance"]
+- ["Ps16SignedNumberType", "IntegerLiteralType"]
+- ["Ps10Streamable", "basename"]
+- ["Ps10Streamable", "init"]
+- ["Ps10Strideable", "Distance"]
+- ["Ps10Strideable", "IntegerLiteralType"]
+- ["SS", "basename"]
+- ["SS", "init"]
+- ["Ps30StringInterpolationConvertible", "basename"]
+- ["Ps30StringInterpolationConvertible", "init"]
+- ["Ps24StringLiteralConvertible", "basename"]
+- ["Ps24StringLiteralConvertible", "init"]
+- ["Su", "deinit"]
+- ["Vs6UInt16", "deinit"]
+- ["Vs6UInt32", "deinit"]
+- ["Vs6UInt64", "deinit"]
+- ["Vs5UInt8", "deinit"]
+- ["Sc", "deinit"]
+- ["Ps31UnicodeScalarLiteralConvertible", "basename"]
+- ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- ["OO10swiftbuild16CommandLineError9UsageMode", "Imply"]
+- ["OO10swiftbuild16CommandLineError9UsageMode", "Print"]
+- ["O3sys9Verbosity", "init"]
+- ["Ps10_ArrayType", "Element"]
+- ["Ps10_ArrayType", "Generator"]
+- ["Ps10_ArrayType", "Index"]
+- ["Ps10_ArrayType", "SubSequence"]
+- ["Ps10_ArrayType", "_Element"]
+- ["Ps10_ArrayType", "dropFirst"]
+- ["Ps10_ArrayType", "init"]
+- ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "basename"]
+- ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- ["Ps32_BuiltinStringLiteralConvertible", "basename"]
+- ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- ["Ps37_BuiltinUTF16StringLiteralConvertible", "basename"]
+- ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "basename"]
+- ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- ["Ps24_DestructorSafeContainer", "Element"]
+- ["Ps24_DestructorSafeContainer", "Generator"]
+- ["Ps24_DestructorSafeContainer", "Index"]
+- ["Ps24_DestructorSafeContainer", "SubSequence"]
+- ["Ps24_DestructorSafeContainer", "_Element"]
+- ["Ps24_DestructorSafeContainer", "dropFirst"]
+- ["Ps24_DestructorSafeContainer", "init"]
+- ["Ps14_Incrementable", "Distance"]
+- ["Ps14_Incrementable", "IntegerLiteralType"]
+- ["Ps22_IntegerArithmeticType", "Distance"]
+- ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- ["Ps12_IntegerType", "Distance"]
+- ["Ps12_IntegerType", "IntegerLiteralType"]
+- ["Ps22_RandomAccessAmbiguity", "Distance"]
+- ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- ["Ps12_Reflectable", "Distance"]
+- ["Ps12_Reflectable", "Element"]
+- ["Ps12_Reflectable", "Generator"]
+- ["Ps12_Reflectable", "Index"]
+- ["Ps12_Reflectable", "IntegerLiteralType"]
+- ["Ps12_Reflectable", "Some"]
+- ["Ps12_Reflectable", "SubSequence"]
+- ["Ps12_Reflectable", "_Element"]
+- ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- ["Ps12_Reflectable", "basename"]
+- ["Ps12_Reflectable", "dropFirst"]
+- ["Ps12_Reflectable", "init"]
+- ["Ps18_SignedIntegerType", "Distance"]
+- ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- "Ps23ArrayLiteralConvertible"
+- "Vs10ArraySlice"
+- "Ps22BidirectionalIndexType"
+- "Ps21BitwiseOperationsType"
+- "Sb"
+- "Ps25BooleanLiteralConvertible"
+- "Ps11BooleanType"
+- "Ps11CVarArgType"
+- "Vs9Character"
+- "Ps14CollectionType"
+- "O10swiftbuild16CommandLineError"
+- "Ps10Comparable"
+- "OV3dep15BuildParameters13Configuration"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Sd"
+- "Ps9Equatable"
+- "O5POSIX5Error"
+- "Ps9ErrorType"
+- "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- "P3dep9Fetchable"
+- "Sf"
+- "Ps16ForwardIndexType"
+- "Ps13GeneratorType"
+- "Ps8Hashable"
+- "Ps9Indexable"
+- "Vs17IndexingGenerator"
+- "Si"
+- "Vs5Int16"
+- "Vs5Int32"
+- "Vs5Int64"
+- "Vs4Int8"
+- "Ps21IntegerArithmeticType"
+- "Ps25IntegerLiteralConvertible"
+- "Ps11IntegerType"
+- "V3dep8Manifest"
+- "Ps14MirrorPathType"
+- "O10swiftbuild4Mode"
+- "Ps21MutableCollectionType"
+- "Ps16MutableIndexable"
+- "Ps16MutableSliceable"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- "Ps16OutputStreamType"
+- "C18PackageDescription7Package"
+- "V3dep7Package"
+- "V3sys4Path"
+- "Os7Process"
+- "Ps21RandomAccessIndexType"
+- "Ps30RangeReplaceableCollectionType"
+- "Ps16RawRepresentable"
+- "C3sys9Resources"
+- "Ps12SequenceType"
+- "Ps17SignedIntegerType"
+- "Ps16SignedNumberType"
+- "Ps10Streamable"
+- "Ps10Strideable"
+- "SS"
+- "Ps30StringInterpolationConvertible"
+- "Ps24StringLiteralConvertible"
+- "Su"
+- "Vs6UInt16"
+- "Vs6UInt32"
+- "Vs6UInt64"
+- "Vs5UInt8"
+- "Sc"
+- "Ps31UnicodeScalarLiteralConvertible"
+- "OO10swiftbuild16CommandLineError9UsageMode"
+- "O3sys9Verbosity"
+- "Ps10_ArrayType"
+- "Ps33_BuiltinBooleanLiteralConvertible"
+- "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- "Ps33_BuiltinIntegerLiteralConvertible"
+- "Ps32_BuiltinStringLiteralConvertible"
+- "Ps37_BuiltinUTF16StringLiteralConvertible"
+- "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- "Ps24_DestructorSafeContainer"
+- "Ps14_Incrementable"
+- "Ps22_IntegerArithmeticType"
+- "Ps12_IntegerType"
+- "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/POSIX.swiftmodule"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/libc.swiftmodule"
+- "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/sys.swiftmodule"
+- "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/dep.swiftmodule"
+- "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/PackageDescription.swiftmodule"
+interface-hash: "0a3ef64a29d75e9a324b2926ed0205d3"

@@ -1,0 +1,59 @@
+{
+  "": {
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/sys/master.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/sys/File.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/sys/File.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/sys/File.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/sys/File~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/sys/File.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/sys/misc.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/sys/misc.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/sys/misc.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/sys/misc~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/sys/misc.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/sys/Path.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/sys/Path.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/sys/Path.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/sys/Path~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/sys/Path.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/sys/Resources.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/sys/Resources.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/sys/Resources.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/sys/Resources~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/sys/Resources.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/sys/StringExtensions.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/sys/StringExtensions.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/sys/StringExtensions.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/sys/StringExtensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/sys/StringExtensions.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/sys/TOML.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/sys/TOML.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/sys/TOML.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/sys/TOML~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/sys/TOML.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/sys/URL.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/sys/URL.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/sys/URL.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/sys/URL~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/sys/URL.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/sys/Verbosity.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/sys/Verbosity.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/sys/Verbosity.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/sys/Verbosity~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/sys/Verbosity.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/sys/walk.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/sys/walk.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/sys/walk.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/sys/walk~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/sys/walk.swiftdeps"
+  }
+}

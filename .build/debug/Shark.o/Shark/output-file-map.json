@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Shark.o/Shark/master.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Sources/main.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Shark.o/Shark/main.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Shark.o/Sources/main.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Shark.o/Shark/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Shark.o/Shark/main.swiftdeps"
+  }
+}

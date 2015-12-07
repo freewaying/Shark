@@ -1,0 +1,29 @@
+client:
+  name: swift-build
+
+tools: {}
+
+targets:
+  "": [<Shark>]
+  Shark: [<Shark>]
+
+commands:
+  <Shark-swiftc>:
+    tool: swift-compiler
+    executable: "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/bin/swiftc"
+    inputs: ["/Users/kaandedeoglu/Code/Git/Shark/Sources/main.swift"]
+    outputs: ["<Shark-swiftc>","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Shark.swiftmodule","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Shark.o/Sources/main.swift.o"]
+    module-name: "Shark"
+    module-output-path: "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Shark.swiftmodule"
+    is-library: false
+    sources: ["/Users/kaandedeoglu/Code/Git/Shark/Sources/main.swift"]
+    objects: ["/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Shark.o/Sources/main.swift.o"]
+    import-paths: ["/Users/kaandedeoglu/Code/Git/Shark/.build/debug"]
+    temps-path: "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Shark.o/Shark"
+    other-args: ["-j8","-Onone","-g","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk","-I","/usr/local/include"]
+  <Shark>:
+    tool: shell
+    inputs: ["<Shark-swiftc>","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Shark.o/Sources/main.swift.o"]
+    outputs: ["<Shark>","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Shark"]
+    args: ["/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-01-a.xctoolchain/usr/bin/swiftc","-o","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Shark","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Shark.o/Sources/main.swift.o","-Xlinker","-all_load","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk","-Xlinker","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/PathKit.a","-Xlinker","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/dep.a","-Xlinker","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/libc.a","-Xlinker","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/PackageDescription.a","-Xlinker","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/POSIX.a","-Xlinker","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/sys.a","-L/usr/local/lib"]
+    description: "Linking Executable:  .build/debug/Shark"

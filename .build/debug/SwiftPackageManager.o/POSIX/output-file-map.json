@@ -1,0 +1,137 @@
+{
+  "": {
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/master.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/POSIX/chdir.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/chdir.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/POSIX/chdir.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/chdir~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/chdir.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/POSIX/Error.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/Error.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/POSIX/Error.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/Error~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/Error.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/POSIX/exit.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/exit.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/POSIX/exit.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/exit~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/exit.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/POSIX/FILE.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/FILE.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/POSIX/FILE.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/FILE~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/FILE.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/POSIX/fileno.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/fileno.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/POSIX/fileno.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/fileno~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/fileno.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/POSIX/fopen.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/fopen.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/POSIX/fopen.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/fopen~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/fopen.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/POSIX/fputs.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/fputs.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/POSIX/fputs.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/fputs~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/fputs.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/POSIX/getcwd.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/getcwd.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/POSIX/getcwd.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/getcwd~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/getcwd.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/POSIX/getenv.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/getenv.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/POSIX/getenv.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/getenv~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/getenv.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/POSIX/isatty.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/isatty.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/POSIX/isatty.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/isatty~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/isatty.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/POSIX/misc.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/misc.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/POSIX/misc.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/misc~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/misc.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/POSIX/mkdir.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/mkdir.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/POSIX/mkdir.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/mkdir~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/mkdir.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/POSIX/mkdtemp.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/mkdtemp.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/POSIX/mkdtemp.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/mkdtemp~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/mkdtemp.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/POSIX/opendir.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/opendir.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/POSIX/opendir.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/opendir~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/opendir.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/POSIX/popen.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/popen.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/POSIX/popen.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/popen~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/popen.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/POSIX/readlink.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/readlink.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/POSIX/readlink.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/readlink~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/readlink.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/POSIX/realpath.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/realpath.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/POSIX/realpath.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/realpath~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/realpath.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/POSIX/rename.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/rename.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/POSIX/rename.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/rename~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/rename.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/POSIX/rmdir.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/rmdir.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/POSIX/rmdir.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/rmdir~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/rmdir.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/POSIX/symlink.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/symlink.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/POSIX/symlink.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/symlink~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/symlink.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/POSIX/system.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/system.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/POSIX/system.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/system~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/system.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/POSIX/unlink.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/unlink.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/POSIX/unlink.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/unlink~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/POSIX/unlink.swiftdeps"
+  }
+}

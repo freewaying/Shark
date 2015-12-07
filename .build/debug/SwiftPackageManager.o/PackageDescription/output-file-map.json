@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/PackageDescription/master.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/PackageDescription/Package.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/PackageDescription/Package.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/PackageDescription/Package.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/PackageDescription/Package~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/PackageDescription/Package.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/PackageDescription/Target.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/PackageDescription/Target.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/PackageDescription/Target.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/PackageDescription/Target~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/PackageDescription/Target.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/PackageDescription/Version.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/PackageDescription/Version.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/PackageDescription/Version.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/PackageDescription/Version~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/PackageDescription/Version.swiftdeps"
+  }
+}

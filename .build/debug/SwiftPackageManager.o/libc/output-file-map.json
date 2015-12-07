@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/libc/master.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/libc/dirent.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/libc/dirent.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/libc/dirent.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/libc/dirent~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/libc/dirent.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/libc/libc.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/libc/libc.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/libc/libc.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/libc/libc~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/libc/libc.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/libc/String+Linux.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/libc/String+Linux.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/Sources/libc/String+Linux.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/libc/String+Linux~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/SwiftPackageManager.o/libc/String+Linux.swiftdeps"
+  }
+}
