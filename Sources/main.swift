@@ -2,6 +2,7 @@
 
 import Foundation
 import PathKit
+import Rainbow
 
 struct EnumBuilder {
     private enum Resource {
@@ -21,7 +22,7 @@ struct EnumBuilder {
             return ""
         }
         let topLevelResource = Resource.Directory(topLevelName, resources)
-        return createEnumDeclarationForResources([topLevelResource], indentLevel: 0)
+        return enumDeclarationForResources([topLevelResource], indentLevel: 0)
     }
     
     private static func imageResourcesAtPath(path: Path) throws -> [Resource] {
@@ -85,7 +86,7 @@ struct EnumBuilder {
         }
     }
     
-    private static func createEnumDeclarationForResources(resources: [Resource], indentLevel: Int) -> String {
+    private static func enumDeclarationForResources(resources: [Resource], indentLevel: Int) -> String {
         let sortedResources = resources.sort { first, _ in
             if case .Directory = first {
                 return true
@@ -100,7 +101,7 @@ struct EnumBuilder {
         for singleResource in sortedResources {
             switch singleResource {
             case .File(let name):
-                print("Creating Case: \(name)")
+                print("    case: \(name)".green)
                 let indentationString = String(count: 4 * (indentLevel + 1), repeatedValue: Character(" "))
                 if let correctedName = correctedNameForString(name) {
                     let seenCount = fileNameSeen.countForObject(correctedName)
@@ -113,7 +114,7 @@ struct EnumBuilder {
                     fileNameSeen.addObject(name)
                 }
             case .Directory(let (name, subResources)):
-                print("Creating Enum: \(name)")
+                print("enum: \(name)".yellow.bold.underline)
                 let indentationString = String(count: 4 * (indentLevel), repeatedValue: Character(" "))
                 let duplicateCorrectedName: String
                 if let correctedName = correctedNameForString(name) {
@@ -125,65 +126,13 @@ struct EnumBuilder {
                     folderNameSeen.addObject(name)
                 }
                 resultString += "\n" + indentationString + "public enum \(duplicateCorrectedName)" + conformanceStringForResource(singleResource)  + " {" + "\n"
-                resultString += createEnumDeclarationForResources(subResources, indentLevel: indentLevel + 1)
+                resultString += enumDeclarationForResources(subResources, indentLevel: indentLevel + 1)
                 resultString += indentationString + "}\n\n"
             }
         }
         return resultString
     }
 }
-
-/*
-    private static func createEnumDeclarationForResources(resources: [Resource], indentLevel: Int) -> String {
-        let sortedResources = resources.sort { first, _ in
-            if case .Directory = first {
-                return true
-            }
-            return false
-        }
-        
-        var fileNameSeen = CountedSet<String>()
-        var folderNameSeen = CountedSet<String>()
-        
-        var resultString = ""
-        for singleResource in sortedResources {
-            switch singleResource {
-            case .File(let name):
-                print("Creating Case: \(name)")
-                let indentationString = String(count: 4 * (indentLevel + 1), repeatedValue: Character(" "))
-                if let correctedName = correctedNameForString(name) {
-                    let seenCount = fileNameSeen.countForObject(correctedName)
-                    let duplicateCorrectedName = correctedName + String(count: seenCount, repeatedValue: Character("_"))
-                    resultString += indentationString + "case \(duplicateCorrectedName) = \"\(name)\"\n"
-                    
-                    fileNameSeen.addObject(correctedName)
-                } else {
-                    resultString += indentationString + "case \(name)\n"
-                    fileNameSeen.addObject(name)
-                }
-            case .Directory(let (name, subResources)):
-                print("Creating Enum: \(name)")
-                let indentationString = String(count: 4 * (indentLevel), repeatedValue: Character(" "))
-                let duplicateCorrectedName: String
-                if let correctedName = correctedNameForString(name) {
-                    let seenCount = folderNameSeen.countForObject(correctedName)
-                    duplicateCorrectedName = correctedName + String(count: seenCount, repeatedValue: Character("_"))
-                    folderNameSeen.addObject(correctedName)
-                } else {
-                    duplicateCorrectedName = name
-                    folderNameSeen.addObject(name)
-                }
-                resultString += "\n" + indentationString + "public enum \(duplicateCorrectedName)" + conformanceStringForResource(singleResource)  + " {" + "\n"
-                resultString += createEnumDeclarationForResources(subResources, indentLevel: indentLevel + 1)
-                resultString += indentationString + "}\n\n"
-            }
-        }
-        return resultString
-    }
-}
-
-*/
-
 
 struct FileBuilder {
     static func fileStringWithEnumString(enumString: String) -> String {

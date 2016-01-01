@@ -1,0 +1,15 @@
+version: "Apple Swift version 2.2-dev (LLVM 3ebdbb2c7e, Clang f66c5bb67b, Swift 17fe37d715)"
+options: "adcfd8863015b7975a1238c56220ec55"
+build_time: [504985567, 191434000]
+inputs:
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/Rainbow-1.0.1/Sources/BackgroundColor.swift": [504985565, 0]
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/Rainbow-1.0.1/Sources/CodesParser.swift": [504985565, 0]
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/Rainbow-1.0.1/Sources/Color.swift": [504985565, 0]
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/Rainbow-1.0.1/Sources/ControlCode.swift": [504985565, 0]
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/Rainbow-1.0.1/Sources/ModesExtractor.swift": [504985565, 0]
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/Rainbow-1.0.1/Sources/OutputTarget.swift": [504985565, 0]
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/Rainbow-1.0.1/Sources/Rainbow.swift": [504985565, 0]
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/Rainbow-1.0.1/Sources/String+Rainbow.swift": [504985565, 0]
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/Rainbow-1.0.1/Sources/StringGenerator.swift": [504985565, 0]
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/Rainbow-1.0.1/Sources/Style.swift": [504985565, 0]
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/Rainbow-1.0.1/Sources/XcodeColorsSupport.swift": [504985565, 0]

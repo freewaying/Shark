@@ -1,0 +1,71 @@
+{
+  "": {
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/master.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/Rainbow-1.0.1/Sources/BackgroundColor.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/BackgroundColor.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Sources/BackgroundColor.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/BackgroundColor~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/BackgroundColor.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/Rainbow-1.0.1/Sources/CodesParser.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/CodesParser.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Sources/CodesParser.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/CodesParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/CodesParser.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/Rainbow-1.0.1/Sources/Color.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/Color.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Sources/Color.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/Color~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/Color.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/Rainbow-1.0.1/Sources/ControlCode.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/ControlCode.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Sources/ControlCode.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/ControlCode~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/ControlCode.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/Rainbow-1.0.1/Sources/ModesExtractor.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/ModesExtractor.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Sources/ModesExtractor.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/ModesExtractor~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/ModesExtractor.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/Rainbow-1.0.1/Sources/OutputTarget.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/OutputTarget.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Sources/OutputTarget.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/OutputTarget~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/OutputTarget.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/Rainbow-1.0.1/Sources/Rainbow.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/Rainbow.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Sources/Rainbow.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/Rainbow~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/Rainbow.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/Rainbow-1.0.1/Sources/String+Rainbow.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/String+Rainbow.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Sources/String+Rainbow.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/String+Rainbow~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/String+Rainbow.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/Rainbow-1.0.1/Sources/StringGenerator.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/StringGenerator.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Sources/StringGenerator.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/StringGenerator~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/StringGenerator.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/Rainbow-1.0.1/Sources/Style.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/Style.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Sources/Style.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/Style~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/Style.swiftdeps"
+  },
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/Rainbow-1.0.1/Sources/XcodeColorsSupport.swift": {
+    "dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/XcodeColorsSupport.d",
+    "object": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Sources/XcodeColorsSupport.swift.o",
+    "swiftmodule": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/XcodeColorsSupport~partial.swiftmodule",
+    "swift-dependencies": "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.o/Rainbow/XcodeColorsSupport.swiftdeps"
+  }
+}
