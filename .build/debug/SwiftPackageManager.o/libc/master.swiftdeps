@@ -1,6 +1,6 @@
-version: "Apple Swift version 2.2-dev (LLVM 3ebdbb2c7e, Clang f66c5bb67b, Swift 17fe37d715)"
-options: "3f200f12025ebd6290645c64124cb0ab"
-build_time: [504723461, 122350000]
+version: "Apple Swift version 2.2-dev (LLVM 3ebdbb2c7e, Clang f66c5bb67b, Swift 1f2908b4f7)"
+options: "ff5f8350fc8997b4437404f051baa595"
+build_time: [504987665, 429511000]
 inputs:
   "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/libc/dirent.swift": [502843387, 0]
   "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/libc/libc.swift": [502843387, 0]

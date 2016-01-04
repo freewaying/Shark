@@ -61,6 +61,18 @@ struct EnumBuilder {
         
         return nil
     }
+
+    private static func resourceNameWithDuplication(resourceName: String, seenCount: Int) -> String {
+        switch seenCount {
+        case 0:
+        return resourceName
+        case 1:
+        return resourceName + "_copy"
+        case _:
+        return resourceName + "_copy\(seenCount)"
+        }
+    }
+
     
     //An enum should extend String and conform to SharkImageConvertible if and only if it has at least on image asset in it.
     //We return empty string when we get a Directory of directories.
@@ -105,9 +117,8 @@ struct EnumBuilder {
                 let indentationString = String(count: 4 * (indentLevel + 1), repeatedValue: Character(" "))
                 if let correctedName = correctedNameForString(name) {
                     let seenCount = fileNameSeen.countForObject(correctedName)
-                    let duplicateCorrectedName = correctedName + String(count: seenCount, repeatedValue: Character("_"))
-                    resultString += indentationString + "case \(duplicateCorrectedName) = \"\(name)\"\n"
-                    
+                    let duplicateCorrectedName = resourceNameWithDuplication(correctedName, seenCount: seenCount)
+                    resultString += indentationString + "case \(duplicateCorrectedName) = \"\(name)\"\n"                    
                     fileNameSeen.addObject(correctedName)
                 } else {
                     resultString += indentationString + "case \(name)\n"
@@ -119,7 +130,7 @@ struct EnumBuilder {
                 let duplicateCorrectedName: String
                 if let correctedName = correctedNameForString(name) {
                     let seenCount = folderNameSeen.countForObject(correctedName)
-                    duplicateCorrectedName = correctedName + String(count: seenCount, repeatedValue: Character("_"))
+                    duplicateCorrectedName = resourceNameWithDuplication(correctedName, seenCount: seenCount)
                     folderNameSeen.addObject(correctedName)
                 } else {
                     duplicateCorrectedName = name
