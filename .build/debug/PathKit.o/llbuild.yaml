@@ -10,7 +10,7 @@ targets:
 commands:
   <PathKit-swiftc>:
     tool: swift-compiler
-    executable: "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-31-a.xctoolchain/usr/bin/swiftc"
+    executable: "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-06-a.xctoolchain/usr/bin/swiftc"
     inputs: ["/Users/kaandedeoglu/Code/Git/Shark/Packages/PathKit-0.6.0/Sources/PathKit.swift"]
     outputs: ["<PathKit-swiftc>","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/PathKit.swiftmodule","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/PathKit.o/Sources/PathKit.swift.o"]
     module-name: "PathKit"

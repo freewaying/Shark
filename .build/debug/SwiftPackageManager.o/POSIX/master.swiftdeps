@@ -1,6 +1,6 @@
-version: "Apple Swift version 2.2-dev (LLVM 3ebdbb2c7e, Clang f66c5bb67b, Swift 1f2908b4f7)"
+version: "Apple Swift version 2.2-dev (LLVM 3ebdbb2c7e, Clang f66c5bb67b, Swift 54dcd16759)"
 options: "5f350e02279fb693a0fd4b0911419c25"
-build_time: [504987665, 610504000]
+build_time: [505585163, 5316000]
 inputs:
   "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/POSIX/chdir.swift": [502843387, 0]
   "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/POSIX/Error.swift": [502843387, 0]

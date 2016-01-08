@@ -42,45 +42,45 @@ provides-member:
 - ["V18PackageDescription7Version", "maxRange"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "Swift"
-- "Comparable"
-- "FloatLiteralConvertible"
-- !private "IntegerLiteralType"
-- "Range"
-- "IntegerLiteralConvertible"
-- !private "ExtendedGraphemeClusterType"
-- "Version"
-- "=="
-- !private "-"
-- ">="
-- "StringLiteralType"
-- !private "Array"
-- "Bool"
-- "Float"
-- ">"
-- "..."
-- "~="
-- "..<"
-- !private "!"
-- "!="
 - "Int"
-- "~>"
-- !private "||"
-- "String"
 - "BidirectionalIndexType"
-- !private "UnicodeScalarType"
-- "ForwardIndexType"
-- "Equatable"
-- "StringLiteralConvertible"
-- "Requirement"
-- !private "FloatLiteralType"
-- "Specifier"
-- "<="
+- "String"
 - "CustomStringConvertible"
 - "<"
-- !private "BooleanLiteralType"
-- !private "&&"
+- "!="
+- "..<"
+- "Bool"
+- "ForwardIndexType"
+- "FloatLiteralConvertible"
+- !private "FloatLiteralType"
+- "IntegerLiteralConvertible"
+- "Equatable"
+- "..."
 - !private "??"
+- !private "BooleanLiteralType"
+- "StringLiteralConvertible"
+- !private "!"
+- !private "||"
+- "Float"
+- "Range"
+- !private "Swift"
+- !private "ExtendedGraphemeClusterType"
+- "Version"
+- !private "Array"
+- ">"
+- !private "IntegerLiteralType"
+- ">="
+- "~="
+- "=="
+- "StringLiteralType"
+- "<="
+- !private "&&"
+- "Requirement"
+- !private "-"
+- "~>"
+- !private "UnicodeScalarType"
+- "Comparable"
+- "Specifier"
 depends-member:
 - !private ["Vs12AnyGenerator", "Element"]
 - !private ["Vs11AnySequence", "Generator"]
@@ -116,6 +116,7 @@ depends-member:
 - !private ["Ps22BidirectionalIndexType", "Int"]
 - ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
 - !private ["Ps22BidirectionalIndexType", "String"]
+- ["Ps22BidirectionalIndexType", "StringLiteralType"]
 - !private ["Ps22BidirectionalIndexType", "Swift"]
 - ["Ps22BidirectionalIndexType", "UnicodeScalarLiteralType"]
 - !private ["Ps22BidirectionalIndexType", "Version"]
@@ -181,6 +182,7 @@ depends-member:
 - !private ["Ps10Comparable", "Int"]
 - ["Ps10Comparable", "IntegerLiteralType"]
 - !private ["Ps10Comparable", "String"]
+- ["Ps10Comparable", "StringLiteralType"]
 - !private ["Ps10Comparable", "Swift"]
 - ["Ps10Comparable", "UnicodeScalarLiteralType"]
 - !private ["Ps10Comparable", "Version"]
@@ -236,6 +238,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "Int"]
 - ["Ps23CustomStringConvertible", "IntegerLiteralType"]
 - !private ["Ps23CustomStringConvertible", "String"]
+- ["Ps23CustomStringConvertible", "StringLiteralType"]
 - !private ["Ps23CustomStringConvertible", "SubSequence"]
 - !private ["Ps23CustomStringConvertible", "Swift"]
 - ["Ps23CustomStringConvertible", "UnicodeScalarLiteralType"]
@@ -280,6 +283,7 @@ depends-member:
 - ["Ps9Equatable", "Patch"]
 - ["Ps9Equatable", "RawValue"]
 - !private ["Ps9Equatable", "String"]
+- ["Ps9Equatable", "StringLiteralType"]
 - !private ["Ps9Equatable", "Swift"]
 - ["Ps9Equatable", "UnicodeScalarLiteralType"]
 - !private ["Ps9Equatable", "Version"]
@@ -309,9 +313,12 @@ depends-member:
 - ["Ps41ExtendedGraphemeClusterLiteralConvertible", "Component"]
 - ["Ps41ExtendedGraphemeClusterLiteralConvertible", "Distance"]
 - ["Ps41ExtendedGraphemeClusterLiteralConvertible", "ExtendedGraphemeClusterLiteralType"]
+- ["Ps41ExtendedGraphemeClusterLiteralConvertible", "FloatLiteralType"]
 - !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "Int"]
+- ["Ps41ExtendedGraphemeClusterLiteralConvertible", "IntegerLiteralType"]
 - !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "Specifier"]
 - !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "String"]
+- ["Ps41ExtendedGraphemeClusterLiteralConvertible", "StringLiteralType"]
 - !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "Swift"]
 - ["Ps41ExtendedGraphemeClusterLiteralConvertible", "UnicodeScalarLiteralType"]
 - !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "Version"]
@@ -335,9 +342,12 @@ depends-member:
 - ["Ps41ExtendedGraphemeClusterLiteralConvertible", ""]
 - !private ["Sf", "deinit"]
 - ["Ps23FloatLiteralConvertible", "ExtendedGraphemeClusterLiteralType"]
+- ["Ps23FloatLiteralConvertible", "FloatLiteralType"]
 - !private ["Ps23FloatLiteralConvertible", "Int"]
+- ["Ps23FloatLiteralConvertible", "IntegerLiteralType"]
 - !private ["Ps23FloatLiteralConvertible", "Specifier"]
 - !private ["Ps23FloatLiteralConvertible", "String"]
+- ["Ps23FloatLiteralConvertible", "StringLiteralType"]
 - !private ["Ps23FloatLiteralConvertible", "Swift"]
 - ["Ps23FloatLiteralConvertible", "UnicodeScalarLiteralType"]
 - ["Ps23FloatLiteralConvertible", "init"]
@@ -351,6 +361,7 @@ depends-member:
 - !private ["Ps16ForwardIndexType", "Int"]
 - ["Ps16ForwardIndexType", "IntegerLiteralType"]
 - !private ["Ps16ForwardIndexType", "String"]
+- ["Ps16ForwardIndexType", "StringLiteralType"]
 - !private ["Ps16ForwardIndexType", "Swift"]
 - ["Ps16ForwardIndexType", "UnicodeScalarLiteralType"]
 - !private ["Ps16ForwardIndexType", "Version"]
@@ -423,10 +434,12 @@ depends-member:
 - !private ["Ps21IntegerArithmeticType", "successor"]
 - !private ["Ps25IntegerLiteralConvertible", "Distance"]
 - ["Ps25IntegerLiteralConvertible", "ExtendedGraphemeClusterLiteralType"]
+- ["Ps25IntegerLiteralConvertible", "FloatLiteralType"]
 - !private ["Ps25IntegerLiteralConvertible", "Int"]
 - ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
 - !private ["Ps25IntegerLiteralConvertible", "Specifier"]
 - !private ["Ps25IntegerLiteralConvertible", "String"]
+- ["Ps25IntegerLiteralConvertible", "StringLiteralType"]
 - !private ["Ps25IntegerLiteralConvertible", "Swift"]
 - ["Ps25IntegerLiteralConvertible", "UnicodeScalarLiteralType"]
 - !private ["Ps25IntegerLiteralConvertible", "hashValue"]
@@ -590,9 +603,12 @@ depends-member:
 - ["Ps24StringLiteralConvertible", "Component"]
 - ["Ps24StringLiteralConvertible", "Distance"]
 - ["Ps24StringLiteralConvertible", "ExtendedGraphemeClusterLiteralType"]
+- ["Ps24StringLiteralConvertible", "FloatLiteralType"]
 - !private ["Ps24StringLiteralConvertible", "Int"]
+- ["Ps24StringLiteralConvertible", "IntegerLiteralType"]
 - !private ["Ps24StringLiteralConvertible", "Specifier"]
 - !private ["Ps24StringLiteralConvertible", "String"]
+- ["Ps24StringLiteralConvertible", "StringLiteralType"]
 - !private ["Ps24StringLiteralConvertible", "Swift"]
 - ["Ps24StringLiteralConvertible", "UnicodeScalarLiteralType"]
 - !private ["Ps24StringLiteralConvertible", "Version"]
@@ -624,9 +640,12 @@ depends-member:
 - ["Ps31UnicodeScalarLiteralConvertible", "Component"]
 - ["Ps31UnicodeScalarLiteralConvertible", "Distance"]
 - ["Ps31UnicodeScalarLiteralConvertible", "ExtendedGraphemeClusterLiteralType"]
+- ["Ps31UnicodeScalarLiteralConvertible", "FloatLiteralType"]
 - !private ["Ps31UnicodeScalarLiteralConvertible", "Int"]
+- ["Ps31UnicodeScalarLiteralConvertible", "IntegerLiteralType"]
 - !private ["Ps31UnicodeScalarLiteralConvertible", "Specifier"]
 - !private ["Ps31UnicodeScalarLiteralConvertible", "String"]
+- ["Ps31UnicodeScalarLiteralConvertible", "StringLiteralType"]
 - !private ["Ps31UnicodeScalarLiteralConvertible", "Swift"]
 - ["Ps31UnicodeScalarLiteralConvertible", "UnicodeScalarLiteralType"]
 - !private ["Ps31UnicodeScalarLiteralConvertible", "Version"]
@@ -725,6 +744,7 @@ depends-member:
 - !private ["Ps14_Incrementable", "Int"]
 - ["Ps14_Incrementable", "IntegerLiteralType"]
 - !private ["Ps14_Incrementable", "String"]
+- ["Ps14_Incrementable", "StringLiteralType"]
 - !private ["Ps14_Incrementable", "Swift"]
 - ["Ps14_Incrementable", "UnicodeScalarLiteralType"]
 - !private ["Ps14_Incrementable", "Version"]
@@ -881,18 +901,18 @@ depends-nominal:
 - "Ps18_SignedIntegerType"
 depends-dynamic-lookup:
 depends-external:
-- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-31-a.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
-- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-31-a.xctoolchain/usr/lib/swift/shims/UnicodeShims.h"
-- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-31-a.xctoolchain/usr/lib/swift/shims/RuntimeStubs.h"
-- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-31-a.xctoolchain/usr/lib/swift/shims/SwiftStdint.h"
-- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-31-a.xctoolchain/usr/lib/swift/shims/SwiftStddef.h"
-- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-31-a.xctoolchain/usr/lib/swift/shims/RuntimeShims.h"
-- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-31-a.xctoolchain/usr/lib/swift/shims/LibcShims.h"
-- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-31-a.xctoolchain/usr/lib/swift/shims/RefCount.h"
-- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-31-a.xctoolchain/usr/lib/swift/shims/HeapObject.h"
-- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-31-a.xctoolchain/usr/lib/swift/shims/GlobalObjects.h"
-- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-31-a.xctoolchain/usr/lib/swift/shims/FoundationShims.h"
-- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-31-a.xctoolchain/usr/lib/swift/shims/CoreFoundationShims.h"
-- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-31-a.xctoolchain/usr/lib/swift/shims/module.map"
-- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2015-12-31-a.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-06-a.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-06-a.xctoolchain/usr/lib/swift/shims/UnicodeShims.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-06-a.xctoolchain/usr/lib/swift/shims/RuntimeStubs.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-06-a.xctoolchain/usr/lib/swift/shims/SwiftStdint.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-06-a.xctoolchain/usr/lib/swift/shims/SwiftStddef.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-06-a.xctoolchain/usr/lib/swift/shims/RuntimeShims.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-06-a.xctoolchain/usr/lib/swift/shims/LibcShims.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-06-a.xctoolchain/usr/lib/swift/shims/RefCount.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-06-a.xctoolchain/usr/lib/swift/shims/HeapObject.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-06-a.xctoolchain/usr/lib/swift/shims/GlobalObjects.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-06-a.xctoolchain/usr/lib/swift/shims/FoundationShims.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-06-a.xctoolchain/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-06-a.xctoolchain/usr/lib/swift/shims/module.map"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-06-a.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
 interface-hash: "0b199bc81ae7545c2415eeaddad94d66"
