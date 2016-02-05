@@ -1,6 +1,6 @@
-version: "Apple Swift version 2.2-dev (LLVM 3ebdbb2c7e, Clang f66c5bb67b, Swift 54dcd16759)"
-options: "1e6fc85a037a35f26ef5c79850dd46dd"
-build_time: [505585170, 655202000]
+version: "Apple Swift version 3.0-dev (LLVM 524cfeb800, Clang f66c5bb67b, Swift c33f2faad2)"
+options: "0723ea6a42723c5f3982942b58e8a40b"
+build_time: [507997691, 71427000]
 inputs:
   "/Users/kaandedeoglu/Code/Git/Shark/Sources/CountedSet.swift": [504723144, 0]
   "/Users/kaandedeoglu/Code/Git/Shark/Sources/main.swift": [505223061, 0]

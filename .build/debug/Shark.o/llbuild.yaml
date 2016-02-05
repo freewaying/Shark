@@ -10,7 +10,7 @@ targets:
 commands:
   <Shark-swiftc>:
     tool: swift-compiler
-    executable: "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-06-a.xctoolchain/usr/bin/swiftc"
+    executable: "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-02-03-a.xctoolchain/usr/bin/swiftc"
     inputs: ["/Users/kaandedeoglu/Code/Git/Shark/Sources/CountedSet.swift","/Users/kaandedeoglu/Code/Git/Shark/Sources/main.swift"]
     outputs: ["<Shark-swiftc>","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Shark.swiftmodule","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Shark.o/Sources/CountedSet.swift.o","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Shark.o/Sources/main.swift.o"]
     module-name: "Shark"
@@ -20,10 +20,10 @@ commands:
     objects: ["/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Shark.o/Sources/CountedSet.swift.o","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Shark.o/Sources/main.swift.o"]
     import-paths: ["/Users/kaandedeoglu/Code/Git/Shark/.build/debug"]
     temps-path: "/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Shark.o/Shark"
-    other-args: ["-j8","-Onone","-g","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk","-I","/usr/local/include"]
+    other-args: ["-j8","-Onone","-g","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk","-I","/usr/local/include","-D","SWIFT_PACKAGE"]
   <Shark>:
     tool: shell
-    inputs: ["<Shark-swiftc>","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Shark.o/Sources/CountedSet.swift.o","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Shark.o/Sources/main.swift.o"]
+    inputs: ["<Shark-swiftc>","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Shark.o/Sources/CountedSet.swift.o","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Shark.o/Sources/main.swift.o","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/PathKit.a","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.a"]
     outputs: ["<Shark>","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Shark"]
-    args: ["/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-06-a.xctoolchain/usr/bin/swiftc","-o","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Shark","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Shark.o/Sources/CountedSet.swift.o","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Shark.o/Sources/main.swift.o","-target","x86_64-apple-macosx10.10","-Xlinker","-all_load","-g","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.a","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/dep.a","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/libc.a","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/PackageDescription.a","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/POSIX.a","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/sys.a","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/PathKit.a","-L/usr/local/lib"]
+    args: ["/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-02-03-a.xctoolchain/usr/bin/swiftc","-o","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Shark","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Shark.o/Sources/CountedSet.swift.o","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Shark.o/Sources/main.swift.o","-target","x86_64-apple-macosx10.10","-Xlinker","-all_load","-g","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/Rainbow.a","/Users/kaandedeoglu/Code/Git/Shark/.build/debug/PathKit.a","-L/usr/local/lib"]
     description: "Linking Executable:  .build/debug/Shark"

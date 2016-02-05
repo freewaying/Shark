@@ -1,6 +1,6 @@
-version: "Apple Swift version 2.2-dev (LLVM 3ebdbb2c7e, Clang f66c5bb67b, Swift 54dcd16759)"
-options: "c91eb294c47b377afb4c8444e89bda66"
-build_time: [505585169, 784281000]
+version: "Apple Swift version 3.0-dev (LLVM 524cfeb800, Clang f66c5bb67b, Swift c33f2faad2)"
+options: "b5bdce40f2dfe97aa98fb26311ed3d20"
+build_time: [507997689, 958088000]
 inputs:
   "/Users/kaandedeoglu/Code/Git/Shark/Packages/Rainbow-1.0.1/Sources/BackgroundColor.swift": [504985565, 0]
   "/Users/kaandedeoglu/Code/Git/Shark/Packages/Rainbow-1.0.1/Sources/CodesParser.swift": [504985565, 0]

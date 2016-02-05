@@ -1,6 +1,6 @@
-version: "Apple Swift version 2.2-dev (LLVM 3ebdbb2c7e, Clang f66c5bb67b, Swift 54dcd16759)"
-options: "3c825af7229debda601769f4238dc9df"
-build_time: [505585167, 96905000]
+version: "Apple Swift version 3.0-dev (LLVM f95d47afa7, Clang f66c5bb67b, Swift b745691a38)"
+options: "a3982475ee782cd44629ad1507672a80"
+build_time: [507153138, 841660000]
 inputs:
   "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/dep/Error.swift": [502843388, 0]
   "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/dep/get.swift": [502843387, 0]
@@ -9,5 +9,5 @@ inputs:
   "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/dep/Manifest+configureTargets.swift": [502843387, 0]
   "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/dep/Manifest.swift": [502843387, 0]
   "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/dep/moduleNameForName.swift": [502843387, 0]
-  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/dep/Package.swift": [502843387, 0]
+  "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/dep/Package.swift": !dirty [502843387, 0]
   "/Users/kaandedeoglu/Code/Git/Shark/Packages/swift-package-manager-0.1.0/Sources/dep/Target.swift": [502843387, 0]
